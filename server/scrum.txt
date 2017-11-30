@@ -1,0 +1,9 @@
+- add favorite journalists
+- then add rows of news on front page by certain authors, like youtube
+
+- sharing stories
+
+- change writing page to have instructions and form on top, and then align the 
+  writer and editor side-by-side starting at the same height
+- replace the users' number for the image in the Write.js file to the link of 
+  the image in the database before creating the story

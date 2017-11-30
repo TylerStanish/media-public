@@ -1,0 +1,98 @@
+.default{
+	display: inline-block;
+}
+
+.radio-input{
+
+}
+
+.my-container{
+	max-height: 100%;
+	max-width: 100%;
+	/*height: auto;*/
+	text-align: justify;
+}
+.textarea{
+	width: 50vw;
+	max-width: 48vw;
+	/*margin: 1vh 1vw 1vh 1vw;*/
+	min-height: 100vh;
+/*	max-height: 98vh;*/
+}
+.bold{
+	font-weight: bold;
+}
+.center{
+	display: flex;
+	justify-content: center;
+}
+.justify{
+	text-align: justify;
+}
+.italic{
+	font-style: italic;
+}
+.image{
+
+	max-width: 100%;
+	max-height: 100%;
+}
+.image-editing{
+	display: block;
+	max-width:50vw;
+	max-height:25vw;
+	width: auto;
+	height: auto;
+}
+.output{
+	white-space: pre-wrap;
+	max-width: 50vw;
+}
+
+.writing-info{
+	background: #eee;
+	border: 1px solid #aaa;
+	text-align: center;
+}
+.writing-info-text{
+	margin: 5px;
+}
+
+.writing-input-wrapper{
+	
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.writing-input{
+	flex: 1;
+	margin-left: 5px;
+	margin-right: 15px;
+}
+/*This should be good for resizing any image?*/
+.select-image-wrapper{
+	flex-basis: 33%;
+	display: flex;
+	flex-direction: column;
+	border: 0.5px solid #eee;
+	justify-content: center;
+	align-items: center;
+
+	padding: 10px;
+	box-sizing: border-box;
+}
+.select-image{
+	width: 200px;
+	height: calc(200px * (9/16));
+	padding: 10px;
+	box-sizing: border-box;
+}
+.image-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+

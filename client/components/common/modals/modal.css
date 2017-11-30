@@ -1,0 +1,68 @@
+.modal{
+
+	border: 2px solid;
+
+	padding: 25px;
+	background: #efefef;
+}
+.modal-close{
+	color: red;
+	font-size: 30px;
+	float: right;
+}
+.login-form{
+	display: flex;
+	flex-direction: column;
+}
+.login-input{
+	flex: 1;
+	min-height: 20px;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+.login-input-input{
+	flex: 1;
+	margin-left: 5px;
+}
+
+.btn{
+	width: 45%;
+}
+
+/*.form-enter{
+	opacity: 0;
+	height: 0px;
+}
+.form-enter.form-enter-active{
+	opacity: 1;
+	height: 40px;
+	transition: height 300ms ease-in;
+}*/
+.form-appear{
+	opacity: 0.01;
+	height: 0px;
+}
+.form-appear.form-appear-active{
+	opacity: 1;
+	height: 59px;
+	transition: all 400ms ease-in;
+}
+.form-enter{
+	opacity: 0.01;
+	height: 0px;
+}
+.form-enter.form-enter-active{
+	opacity: 1;
+	height: 59px;
+	transition: all 400ms;
+}
+.form-leave{
+	opacity: 1;
+	height: 59px;
+}
+.form-leave.form-leave-active{
+	opacity: 0.01;
+	height: 0px;
+	transition: all 400ms;
+}

@@ -1,0 +1,78 @@
+@media screen and (max-width: 800px){
+	.my-nav{
+		flex-direction: column;
+	}
+	.nav-options{
+		flex-direction: column;
+	}
+}
+/*
+
+	IF YOU EVER GET ANY PROBLEMS WITH THE NAV BAR IT'S PROBABLY BECAUSE
+	OF THE ABOVE MEDIA QUERY THAT DOES NOT HAVE ENOUGH FOR ALL OF THE
+	ITEMS IN THE NAVIGATION BAR
+
+*/
+.my-nav{
+	width: 100%;
+	display: flex;
+	
+	justify-content: space-between;
+	/*background: #2f2f2f;*/
+	/*border-bottom: 2px solid #bb00ff;*/
+	border-bottom: 2px solid black;
+}
+.nav-options{
+	display: flex;
+	flex-wrap: wrap;
+}
+.nav-button{
+	/*padding: 20px;*/
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	font-size: 17px;
+	text-decoration: none;
+	color: black;
+}
+.nav-button:hover{
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+.nav-button::after{
+	content: '';
+	transition: width 0.1s, margin-left 0.1s, margin-right 0.1s;
+	width: 0%;
+	margin-left: 50%;
+	margin-right: 50%;
+	height: 3px;
+	/*background: #23b1eb;*/
+	/*background: #aaaaff;*/
+	background: red;
+}
+.nav-button:hover::after{
+	margin-left: 0%;
+	margin-right: 0%;
+	width: 100%;
+	cursor: pointer;
+}
+
+.footer{
+	height: 25vh;
+	width: 100vw;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.footer-column{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.footer-container{
+	background: #eee;
+}
+

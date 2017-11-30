@@ -1,0 +1,18 @@
+/* All unique journalist classes start with jj- */
+
+.jj-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.jj-image{
+	width: 25%;
+	height: 25%;
+	margin: 5%;
+}
+
+.jj-stories{
+	display: flex;
+	flex-wrap: wrap;
+	/*width: 100%;*/
+}
